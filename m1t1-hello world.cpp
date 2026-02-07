@@ -7,7 +7,7 @@ jamesk
 
 //magic words
 #include <iostream>
-using namespace std; 
+using namespace std ; 
 
 int main() {
     //Greet the user
