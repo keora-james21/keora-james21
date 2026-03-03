@@ -9,10 +9,11 @@ using namespace std;
 
 int main() {
     double grade;
+    string first_name, last_name, full_name;
 
     // Greet student 
     cout<< " Hello, student! Please enter your first and last name to access your grade for C++"<< endl;
-    cin>> first_name
+    cin>> first_name;
     cout << "Last name?"<< endl; 
     cin>> last_name 
     full_name= first_name + last_name 
@@ -20,7 +21,7 @@ int main() {
 
     // Enter numeric grades 
     cout<< "Enter your numberic grade (0-100): "<< endl; 
-    cin>> grade 
+    cin>> grade;
     if (grade < 0 || grade>100){
         cout << "Invalid. Please enter a number between 0 and 100"<<endl;
     
