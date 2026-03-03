@@ -15,8 +15,8 @@ int main() {
     cout<< " Hello, student! Please enter your first and last name to access your grade for C++"<< endl;
     cin>> first_name;
     cout << "Last name?"<< endl; 
-    cin>> last_name 
-    full_name= first_name + last_name 
+    cin>> last_name; 
+    full_name= first_name + " " + last_name; 
     cout << "Grettings "<< full_name<< "! Here is the summary for your grades!"<< endl;
 
     // Enter numeric grades 
