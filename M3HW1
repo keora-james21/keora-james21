@@ -1,0 +1,17 @@
+// CSC 134
+// M3HW1-Silver
+//Keora James
+// 3/2/26
+
+#include <iostream>
+using namespace std; 
+
+int main() {
+    cout << "Question 1 : "<< ;
+    cout << "Hello! I'm a C++ program! What's your name?"<<;
+    cin >> first_name;
+    cout << "What's your last name?" << ;
+    cin>> last_name
+    full_name= first_name + " " + last_name;
+    cout << "Nice to meet you, " << full_name<<; 
+}
