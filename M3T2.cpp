@@ -1,32 +1,52 @@
 // CSC 134
-// M3T3
-// norrisa
-// 2/17/2025
-// Start with dice rolls
-// What dice are you using today?
-// norris - 1d20
+// M3T1 
+// Keora James 
+// 3//32025
+// Ask the user for the width and length of two rectangles
+// Find the area
 
 #include <iostream>
-// for random
-#include <cmath>    
-#include <ctime>
 using namespace std;
 
+
 int main() {
-    const int SIDES = 6; // yours will differ!
-    //int seed = 19;
-    int seed = time(0);
-    // seed the random number generator
-    srand(seed);
-    // rand() is a large number, so we take the remainder which is %
-    int roll;
-    // roll a few times
-    roll = ( (rand() % SIDES)+1 );
-    cout << roll << endl;
 
-    roll = (rand() % SIDES);
-    cout << roll << endl;
+    // Variables
+    double len1, wid1, len2, wid2; 
+    double area1, area2;
 
-    roll = (rand() % SIDES);
-    cout << roll << endl;
+    // Ask user for the length and width
+    cout << "What's the length of the first rectangle? ";
+    cin >> len1;
+    cout << "What's the width of the first rectangle? ";
+    cin >> wid1;
+    cout << "What's the length of the second rectangle? ";
+    cin >> len2;
+    cout << "What's the width of the second rectangle? ";
+    cin >> wid2;
+
+    // Find the area
+area1=wid1*len1; 
+area2=wid2*len2;
+
+    // Print the area
+cout<< "Rectangle one has area of " << area1 << endl;
+cout << "Rectangle two has a area of " << area2 << endl;
+
+// determine which is bigger 
+if (area1> area2) {
+cout << "Rectangle one is biger"<< endl;
+
+}
+
+if (area2>area1) {
+    cout << "Rectangle two is bigger" << endl;
+}
+
+if (area1=area2){
+    cout <<" They are the same  size"<<endl;
+    }
+
+cout << " Thanks for the using the program"<<endl;
+    return 0;
 }
