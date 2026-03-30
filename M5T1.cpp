@@ -19,9 +19,23 @@ int double_a_number (int num);
 int main ()
 { 
     cout << "Hello from main()" << endl;
-    say_hello
+    say_hello();
     int my_answer = give_the_answer();
     // now double the answer
     int twotimes=double_a_number(7);
     cout << "Here's another number: "<< twotimes << endl;
+    return 0;
+}
+
+// Function Definitions
+void say_hello() {
+    cout << "Hello from say_hello()" << endl;
+}
+
+int give_the_answer() {
+    return 42;
+}
+
+int double_a_number(int num) {
+    return num * 2;
 }
