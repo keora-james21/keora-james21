@@ -6,5 +6,12 @@
 #include <iostream>
 using namespace std;
 int main(){
-    
+    int first = 0;
+    int second;
+
+    while (first <30){ 
+    second = 100 * first;
+    cout << first << " " << second << endl;
+    first++ ;      
+    }
 }
